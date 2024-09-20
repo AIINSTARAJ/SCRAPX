@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name = "author" content="Kuteyi Ayotomiwa Jay">
+    <meta name="description" content="Simple Flask CBT application to demonstrate web development">
+    <meta name="generator" content="flask.py">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes">
+    <title> {{ data.username }} </title>
+</head>
+<link rel="stylesheet" href="{{url_for('static', filename = 'styles.css')}}">
+<body>
+    <header>
+        WELCOME {{ data.username}}
+    </header>
+</body>
+</html>

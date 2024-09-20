@@ -1,0 +1,32 @@
+h2{
+    color: rgba(15, 79, 138, 0.932);
+    text-align: center;
+    font-size: 48px;
+}
+label{
+    text-align: center;
+    color: greenyellow;
+    margin-left: 600px;
+    font-size: 42px;
+}
+input{
+    margin-left: 620px;
+    height: 32px;
+    width: 210px;
+}
+html{
+    background-color: rgba(22, 22, 121, 0.884);
+}
+button{
+    background-color: blue;
+    color: green;
+    margin-left: 670px;
+    height: 30px;
+    width: 100px;
+    font-size: 18px;
+}
+header{
+    text-align: center;
+    color: aqua;
+    font-size: 28px;
+}

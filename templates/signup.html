@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name = "author" content="Kuteyi Ayotomiwa Jay">
+    <meta name="description" content="Simple Flask CBT application to demonstrate web development">
+    <meta name="generator" content="flask.py">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes">
+    <title>Signup</title>
+</head>
+<link rel="stylesheet" href="{{url_for('static', filename = 'styles.css')}}">
+<body>
+    <h2>
+        Signup
+    </h2>
+    <form action="/signup" method ="post">
+        <label for="username">
+            Username:
+        </label>
+        <br>
+        <br>
+        <input type="text" id="username" name="username">
+        <br>
+        <br>
+        <label for="password">
+            Password:
+        </label>
+        <br>
+        <br>
+        <input type="password" id="password" name="password">
+        <br>
+        <br>
+        <br>
+        <button type="submit" value="submit">
+            Signup
+        </button>
+    </form>
+</body>
+</html>
